@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой Любимый</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d0d;
+            color: #ffffff;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+            background-repeat: repeat;
+        }
+        h1 {
+            margin-top: 50px;
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+        p {
+            max-width: 800px;
+            margin: 20px auto;
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
+        .images {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+            margin-top: 30px;
+        }
+        .images img {
+            width: 300px;
+            border: 2px solid #ff0055;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #ff0055;
+            object-fit: cover;
+        }
+        audio {
+            display: none;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Люблю тебя, мой герой</h1>
+    <p>Ты — мой самый родной, мой уют, моё счастье.  
+    Самые красивые глаза, самые нежные руки, мягкие волосы, самая тёплая улыбка...  
+    Ты для меня — целый мир.  
+    Спасибо, что ты есть.</p>
+
+    <div class="images">
+        <img src="F32CC021-4CEF-4238-8F12-C1090659F1AB.jpeg" alt="Фото 1">
+        <img src="86FCA08D-A1E9-4228-961C-DEC4F24968EA.jpeg" alt="Фото 2">
+        <img src="E2EFB8EB-04A5-42ED-95C6-F6BF37908753.jpeg" alt="Фото 3">
+    </div>
+
+    <audio autoplay loop>
+        <source src="https://file-examples.com/storage/feeb4741c6033c58eea33ad/2020/03/file_example_MP3_700KB.mp3" type="audio/mp3">
+        Ваш браузер не поддерживает аудио.
+    </audio>
+
+    <footer>
+        <p>Ты — мой Бэтмен. А я — навсегда твоя.</p>
+    </footer>
+
+</body>
+</html>
